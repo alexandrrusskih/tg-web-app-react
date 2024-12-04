@@ -4,14 +4,14 @@ import ProductItem from "../ProductItem/ProductItem"
 import './ProductList.css'
 
 const products = [
-    {id: '1', title: 'dfdf', price: 500000, description: 'efdggdfg dfgdfg, прямые', image: require('../../Images/image_1.webp')},
-    {id: '2', title: 'Куртка', price: 1200, description: 'dfgdfg, теплая', image: require('../../Images/image_2.webp')},
-    {id: '3', title: 'Джинсы 2', price: 500, description: 'dgdfgc vrty, прямые', image: require('../../Images/image_3.webp')},
-    {id: '4', title: 'Куртка 8', price: 122, description: 'jkdhgfkdjghdfkl, теплая', image: require('../../Images/image_4.webp')},
-    {id: '5', title: 'Джинсы 3', price: 500, description: 'Синего цвета, прямые', image: require('../../Images/image_5.webp')},
-    {id: '6', title: 'Куртка 7', price: 60, description: 'Зеленого цвета, теплая', image: require('../../Images/image_1.webp')},
-    {id: '7', title: 'Джинсы 4', price: 550, description: 'Синего цвета, прямые', image: require('../../Images/image_2.webp')},
-    {id: '8', title: 'Куртка 5', price: 1200, description: 'Зеленого цвета, теплая', image: require('../../Images/image_3.webp')},
+    {id: '1', title: 'dfdf', price: 500000, description: 'efdggdfg dfgdfg, прямые', image: '../../Images/image_1.webp'},
+    {id: '2', title: 'Куртка', price: 1200, description: 'dfgdfg, теплая', image: '../../Images/image_2.webp'},
+    {id: '3', title: 'Джинсы 2', price: 500, description: 'dgdfgc vrty, прямые', image:'../../Images/image_3.webp'},
+    {id: '4', title: 'Куртка 8', price: 122, description: 'jkdhgfkdjghdfkl, теплая', image:'../../Images/image_4.webp'},
+    {id: '5', title: 'Джинсы 3', price: 500, description: 'Синего цвета, прямые', image: '../../Images/image_5.webp'},
+    {id: '6', title: 'Куртка 7', price: 60, description: 'Зеленого цвета, теплая', image: '../../Images/image_1.webp'},
+    {id: '7', title: 'Джинсы 4', price: 550, description: 'Синего цвета, прямые', image: '../../Images/image_2.webp'},
+    {id: '8', title: 'Куртка 5', price: 1200, description: 'Зеленого цвета, теплая', image: '../../Images/image_3.webp'},
 ]
 
 const getTotalPrice = (items = []) => {
